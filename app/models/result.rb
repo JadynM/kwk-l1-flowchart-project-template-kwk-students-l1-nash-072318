@@ -1,6 +1,6 @@
 class Result
 
-attr_accessor :name, :length, :topic
+attr_accessor :username, :length, :topic
 
 @allarticles = []
 
@@ -26,14 +26,12 @@ elsif @length + @topic <= 10
   elsif @length + @topic <= 16
   @article = "med_womenintech"
   elsif @length + @topic <= 22
-  @article = "feelgood_long"
+  @article = "long_feelgood"
   else @length + @topic <= 24
     @article = "long_womenintech"
-  end
-  @article
+ 
+ end
+@article
 end
 
 end
-
-@response = Result.new("Alea", 1, 11)
-puts @response.results
