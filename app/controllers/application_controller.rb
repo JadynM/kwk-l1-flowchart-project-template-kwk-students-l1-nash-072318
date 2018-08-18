@@ -38,7 +38,7 @@ post '/results' do
 # @response.results
 # "Your article is #{@response.results}."
  if @length + @topic + @read <= 4
-erb :short_envior
+erb :short_environment
 elsif @length + @topic + @read <= 7
 erb :med_envior
 elsif @length + @topic + @read <= 10
