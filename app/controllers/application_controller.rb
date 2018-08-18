@@ -46,7 +46,7 @@ elsif @length + @topic + @read <= 10
 elsif @length + @topic + @read <= 12
 erb :short_womenintech
 elsif @length + @topic + @read <= 14
-erb :med_feelgood
+erb :feelgood_med
 elsif @length + @topic + @read <= 15
 erb :long_envior
 elsif @length + @topic + @read <= 16
