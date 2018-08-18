@@ -40,7 +40,7 @@ post '/results' do
  if @length + @topic + @read <= 4
 erb :short_environment
 elsif @length + @topic + @read <= 7
-erb :med_envior
+erb :med_environment
 elsif @length + @topic + @read <= 10
  erb :short_feelgood
 elsif @length + @topic + @read <= 12
