@@ -10,7 +10,7 @@ get '/' do
 end
 
 get '/quizzz' do
- erb :quizzz
+ erb :quiz
 end
 
 get '/about' do
