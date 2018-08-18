@@ -42,7 +42,7 @@ erb :short_environment
 elsif @length + @topic + @read <= 7
 erb :med_environment
 elsif @length + @topic + @read <= 10
- erb :short_feelgood
+ erb :feelgood_short
 elsif @length + @topic + @read <= 12
 erb :short_womenintech
 elsif @length + @topic + @read <= 14
