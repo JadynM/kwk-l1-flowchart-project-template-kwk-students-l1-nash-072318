@@ -52,7 +52,7 @@ erb :long_environment
 elsif @length + @topic + @read <= 16
 erb :med_womenintech
 elsif @length + @topic + @read <= 22
-erb :long_feelgood
+erb :feelgood_long
 elsif @length + @topic + @read <= 24
 erb :long_womenintech
 else
