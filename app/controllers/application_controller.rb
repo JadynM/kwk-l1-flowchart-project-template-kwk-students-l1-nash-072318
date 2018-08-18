@@ -9,7 +9,7 @@ get '/' do
  erb :index
 end
 
-get '/quizzz' do
+get '/quiz' do
  erb :quiz
 end
 
